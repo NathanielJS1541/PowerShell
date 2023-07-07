@@ -9,13 +9,14 @@ Invoke-Expression (&sfsu hook)
 # Inport PSColor module
 #Import-Module PSColor
 # Configure oh-my-posh
-#oh-my-posh init pwsh --config 'C:\Users\struna01\scoop\apps\oh-my-posh\current\themes\emodipt-extend.omp.json' | Invoke-Expression
-#oh-my-posh init pwsh --config 'C:\Users\struna01\scoop\apps\oh-my-posh\current\themes\iterm2.omp.json' | Invoke-Expression
-#oh-my-posh init pwsh --config 'C:\Users\struna01\scoop\apps\oh-my-posh\current\themes\lambdageneration.omp.json' | Invoke-Expression
-#oh-my-posh init pwsh --config 'C:\Users\struna01\scoop\apps\oh-my-posh\current\themes\microverse-power.omp.json' | Invoke-Expression
-#oh-my-posh init pwsh --config 'C:\Users\struna01\scoop\apps\oh-my-posh\current\themes\powerlevel10k_rainbow.omp.json' | Invoke-Expression
-oh-my-posh init pwsh --config 'C:\Users\struna01\scoop\apps\oh-my-posh\current\themes\slimfat.omp.json' --manual | Invoke-Expression
+#oh-my-posh init pwsh --config '~\scoop\apps\oh-my-posh\current\themes\emodipt-extend.omp.json' | Invoke-Expression
+#oh-my-posh init pwsh --config '~\scoop\apps\oh-my-posh\current\themes\iterm2.omp.json' | Invoke-Expression
+#oh-my-posh init pwsh --config '~\scoop\apps\oh-my-posh\current\themes\lambdageneration.omp.json' | Invoke-Expression
+#oh-my-posh init pwsh --config '~\scoop\apps\oh-my-posh\current\themes\microverse-power.omp.json' | Invoke-Expression
+#oh-my-posh init pwsh --config '~\scoop\apps\oh-my-posh\current\themes\powerlevel10k_rainbow.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config '~\scoop\apps\oh-my-posh\current\themes\slimfat.omp.json' --manual | Invoke-Expression
 
+# Disable python venv prompt, as it is shown in oh-my-posh
 $Env:VIRTUAL_ENV_DISABLE_PROMPT = "1"
 
 <#
